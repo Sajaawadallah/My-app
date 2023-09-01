@@ -1,0 +1,43 @@
+
+input{
+   
+   width: 407px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid #FFC;
+    color: white;
+    padding-left: 30px;
+}
+input::placeholder {
+    color: #FFFFFC;
+    font-size: 12px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 3rem;
+    padding: 3rem 0; 
+    flex-wrap: wrap;
+}
+
+ form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 3rem;
+   flex-wrap: wrap;
+}
+
+.icon-title {
+    color: #FFFFFC;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+

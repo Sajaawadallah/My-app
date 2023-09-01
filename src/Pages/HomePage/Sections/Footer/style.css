@@ -1,0 +1,97 @@
+.main-footer{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    padding: 5rem 0;
+    flex-wrap: wrap;
+
+}
+
+
+@media (min-width: 1200px) {
+    .main-footer > div{
+        max-width: 30%;
+    }
+
+    .about-us{
+        max-width: 40%;
+    }
+    
+}
+
+.icon-title-light{
+    color: #FFFFFC;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 155.3%; 
+letter-spacing: 2.08px;
+text-transform: capitalize;
+}
+
+.socil-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    
+
+}
+
+.other-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+   
+}
+
+.other-links li a , .about-us p{
+    color: #FFFFFC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.8%;
+    letter-spacing: 2.08px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.other-links li a:hover{
+    color: #A08040;
+    
+
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+   
+ 
+
+}
+
+.about-us p {
+    padding-left: 3rem;
+}
+
+
+
+.about-us .logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.about-us .logo h3{
+    color: #FFFCCC;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+}

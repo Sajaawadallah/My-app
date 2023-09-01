@@ -1,0 +1,21 @@
+.social-icons-row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 3rem;
+    margin-top: 1.5rem;
+   
+}
+
+.social-icons-row  a svg  path{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+.social-icons-row  a:hover svg path {
+   fill:  #A08040;
+}

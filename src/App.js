@@ -1,10 +1,11 @@
+import HomePage from "./pages/HomePage";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>saja</h1>
-    </div>
+
+    <HomePage />
+
   );
 }
 
