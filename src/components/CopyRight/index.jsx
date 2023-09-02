@@ -3,7 +3,7 @@ import LightBg from '../LightBg'
 
 import './style.css'
 
-class index extends Component {
+class CopyRight extends Component {
     render() {
         return (
             <LightBg>
@@ -18,4 +18,4 @@ class index extends Component {
     }
 }
 
-export default index
+export default CopyRight

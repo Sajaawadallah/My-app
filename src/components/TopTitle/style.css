@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.title-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+.maintitle {
+    color: #FFCE6D;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 117.3%; 
+letter-spacing: 3.6px;
+}
+
+.suptitle{
+    color: #FFFFFC;
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 117.3%; /* 35.19px */
+text-transform: capitalize;
+}

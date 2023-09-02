@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style.css'
 
-class index extends Component {
+class Container extends Component {
 
   render() {
     const { children } = this.props
@@ -14,4 +14,4 @@ class index extends Component {
   }
 }
 
-export default index
+export default Container

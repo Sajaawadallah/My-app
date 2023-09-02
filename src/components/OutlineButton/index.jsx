@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './style.css'
 
-class index extends Component {
+class OutlineButtton extends Component {
     render() {
         return (
             <button type={this.props.type} name={this.props.name}>{this.props.name}</button>
@@ -9,4 +9,4 @@ class index extends Component {
     }
 }
 
-export default index
+export default OutlineButtton

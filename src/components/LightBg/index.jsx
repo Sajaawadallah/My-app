@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style.css'
 
 
-class index extends Component {
+class LightBg extends Component {
     render() {
         return (
             <div className='light-bg'>
@@ -12,4 +12,4 @@ class index extends Component {
     }
 }
 
-export default index
+export default LightBg
