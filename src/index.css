@@ -18,6 +18,7 @@ body {
   background-color: var(--white);
   background-image: url(../public/secondayBG.gif);
   color: #fff;
+  overflow-x: hidden;
 }
 
 a {

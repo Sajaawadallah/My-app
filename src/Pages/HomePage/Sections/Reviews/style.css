@@ -1,0 +1,13 @@
+.reviews-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    overflow-x: hidden;
+    gap: 7rem;
+    width: 1800px;
+    margin-bottom: 3rem;
+    
+    
+}
