@@ -1,0 +1,37 @@
+.numbercard{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.number-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+
+}
+
+.number-col h2{
+    color: #FFCE6D;
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 117.3%; 
+text-transform: capitalize;
+}
+
+.number-col h5{
+    color: #FFFFFC;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%; 
+    text-transform: capitalize;
+}
