@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: start;
     width: 50%;
     gap: 3rem;
  
@@ -18,7 +19,11 @@
     
 }
 
-.content-section > div {
+.content-section > div  {
+    align-items: flex-start;
+
+}
+.content-section > div  .suptitle  {
     align-items: flex-start;
     text-align: start;
 

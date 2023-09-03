@@ -1,0 +1,40 @@
+.specialcard {
+border: 1px dashed #FFCE6D;
+background: rgba(160, 128, 64, 0.30);
+width: 384px;
+height: 455px;
+padding: 4rem;
+margin-bottom: 3rem;
+}
+
+.specialcard-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   
+}
+
+.specialcard-col h4 {
+    color: #FFFFFC;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 117.3%; /* 28.152px */
+text-transform: capitalize;
+}
+
+.specialcard-col p {
+    color: #FFFFFC;
+text-align: justify;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 155.3%; /* 21.742px */
+letter-spacing: 1.82px;
+text-transform: capitalize;
+}
