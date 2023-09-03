@@ -8,6 +8,7 @@ import AboutUs from "./Sections/AboutUs";
 import Special from "./Sections/Special";
 import FlatOff from "./Sections/FlatOff";
 import Menu from "./Sections/Menu/indx";
+import LandSection from "./Sections/LandSection";
 
 
 
@@ -17,6 +18,7 @@ class HomePage extends React.Component {
 
         return (
             <>
+                <LandSection />
                 <AboutUs />
                 <Special />
                 <Menu />

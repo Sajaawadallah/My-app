@@ -1,0 +1,68 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 988px;
+    margin: 0 auto;
+    height: 76px;
+    background: #101418;
+}
+
+.header_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 272px;
+    height: 100%;
+    background-color: #A08040;
+    border: 1px solid #A08040;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 96.3%; /* 20.223px */
+letter-spacing: 1.26px;
+cursor: pointer;
+}
+
+.header_btn svg path {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.header_btn:hover svg path {
+
+    stroke: rgba(16, 20, 24, 0.70);
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+   
+}
+.nav_menu > li a {
+    color: #FFC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+   
+}
+
+.nav_menu > li a:hover {
+    color: #A08040;
+}
