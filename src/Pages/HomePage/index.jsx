@@ -6,6 +6,7 @@ import Numbers from "./Sections/Numbers";
 import WhatGoseOn from "./Sections/WhatGoseOn";
 import AboutUs from "./Sections/AboutUs";
 import Special from "./Sections/Special";
+import FlatOff from "./Sections/FlatOff";
 
 
 
@@ -17,6 +18,7 @@ class HomePage extends React.Component {
             <>
                 <AboutUs />
                 <Special />
+                <FlatOff />
                 <WhatGoseOn />
                 <Numbers />
                 <Reviews />

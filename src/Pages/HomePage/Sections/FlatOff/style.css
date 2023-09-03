@@ -1,0 +1,43 @@
+.flat-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+
+
+}
+
+.flat-col {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+} 
+.flat-img{
+    width: 400px ;
+
+    
+}
+
+.flat-col h4 {
+    color: #FFFFFC;
+text-align: center;
+font-family: Dancing Script;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+}
+.flat-col h3 {
+    color: #FFCE6D;
+text-align: center;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 0.64px;
+}
