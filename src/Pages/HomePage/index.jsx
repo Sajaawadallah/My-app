@@ -7,6 +7,7 @@ import WhatGoseOn from "./Sections/WhatGoseOn";
 import AboutUs from "./Sections/AboutUs";
 import Special from "./Sections/Special";
 import FlatOff from "./Sections/FlatOff";
+import Menu from "./Sections/Menu/indx";
 
 
 
@@ -18,6 +19,7 @@ class HomePage extends React.Component {
             <>
                 <AboutUs />
                 <Special />
+                <Menu />
                 <FlatOff />
                 <WhatGoseOn />
                 <Numbers />

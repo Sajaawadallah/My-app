@@ -1,0 +1,43 @@
+.menuitem-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: calc(100% /2);
+    margin-bottom: 2rem;
+  
+}
+
+.menuitem-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.menuitem-text p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menuitem-text span {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.menuitem-row h5 {
+    color: #FFCE6D;
+text-align: right;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
